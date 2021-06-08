@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5dddd"
+        android:orientation="vertical">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/mngroomviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="55dp"
+            android:background="#f5dddd" />
+
+
+        <LinearLayout
+            android:id="@+id/bottomnavi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/mngroombottom"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#69DAFD"
+                app:menu="@menu/bottom_menu" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mngroommenuallmanagers"
+            android:layout_width="@dimen/standard_45"
+            android:layout_height="@dimen/standard_45"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/blue"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_supervisor_account_24"
+            android:visibility="gone"
+            app:borderWidth="0dp"
+            app:fabCustomSize="@dimen/standard_45"
+            app:maxImageSize="30dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mngroommenuservice"
+            android:layout_width="@dimen/standard_45"
+            android:layout_height="@dimen/standard_45"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/orange"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_room_service_24"
+            app:borderWidth="0dp"
+            app:fabCustomSize="@dimen/standard_45"
+            app:maxImageSize="30dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mngroommenuaccount"
+            android:layout_width="@dimen/standard_45"
+            android:layout_height="@dimen/standard_45"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/blue"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:borderWidth="0dp"
+            app:fabCustomSize="@dimen/standard_45"
+            app:maxImageSize="30dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mngroommenulogout"
+            android:layout_width="@dimen/standard_45"
+            android:layout_height="@dimen/standard_45"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/red"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_logout_24"
+            app:borderWidth="0dp"
+            app:fabCustomSize="@dimen/standard_45"
+            app:maxImageSize="25dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mngroommenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/blue"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_apps_24"
+            app:borderWidth="0dp"
+            app:maxImageSize="30dp" />
+
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/createroomsback"
+        android:backgroundTint="#C6020713"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="How many rooms do you have?"
+            android:textColor="@color/white"
+            android:textSize="47dp" />
+
+        <TextView
+            android:id="@+id/createintrotxt"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Please input the number below"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/createnumbertxt"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittextfield1"
+            android:drawableLeft="@drawable/ic_baseline_meeting_room_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="cursive"
+            android:hint="Input here!"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createhavevip"
+            android:layout_width="210dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button2"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Click here if you have\nsome Premium rooms"
+            android:textColorHint="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/createnumberviptxt"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittextfield1"
+            android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="cursive"
+            android:hint="How many VIP rooms?"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/createnormalpricetxt"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittextfield1"
+            android:drawableLeft="@drawable/ic_baseline_meeting_room_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="cursive"
+            android:hint="Normal room's price"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/createvippricext"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittextfield1"
+            android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="cursive"
+            android:hint="Premium room's price"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createbtn"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button1"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Set room's price"
+            android:textColorHint="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createlogoutbtn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button2"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Log out >>>"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</layout>
+
+
+

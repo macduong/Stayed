@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stayed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mail_account">facebook.your.protect.services@gmail.com</string>
+    <string name="mail_password">4OTPpurpo53</string>
+
+</resources>

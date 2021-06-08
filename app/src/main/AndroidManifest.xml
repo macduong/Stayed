@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stayed">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Activities.ListAllManagers"></activity>
+        <activity android:name=".Activities.ResetPassword" />
+        <activity android:name=".Activities.ManagerInfo" />
+        <activity android:name=".Activities.UseServices" />
+        <activity android:name=".Activities.ChooseManagement" />
+        <activity android:name=".Activities.EditService" />
+        <activity android:name=".Activities.AddService" />
+        <activity android:name=".Activities.ManageServicesActivity" />
+        <activity android:name=".Activities.OTPConfirm" />
+        <activity android:name=".Activities.ManageRentActivity" />
+        <activity android:name=".Activities.ManageRoomsActivity" />
+        <activity
+            android:name=".Activities.CreateRoomsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

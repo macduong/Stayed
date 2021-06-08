@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="@style/Theme.Design.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginback"
+        android:backgroundTint="#B0020C29"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Modify \n Your account?"
+            android:textColor="@color/white"
+            android:textSize="55dp" />
+
+        <TextView
+            android:id="@+id/forgotemailconftxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Insert your email and click Get OTP\nto confirm your email first"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+
+        <EditText
+            android:id="@+id/forgotinputtxt"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextfield1"
+            android:fontFamily="cursive"
+            android:hint="Your Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/forgotgetOTPbtn"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button1"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Get OTP"
+            android:textColorHint="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/forgotconfOTPbtn"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button1"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Confirm OTP"
+            android:textColorHint="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</layout>
+
+
+
+
